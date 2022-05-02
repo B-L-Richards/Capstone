@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS Capstone;
+CREATE DATABASE Capstone;
+USE Capstone;
+CREATE TABLE users (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    email VARCHAR(512) UNIQUE,
+    Password CHAR(64),
+    salt CHAR(50)
+);

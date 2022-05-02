@@ -1,0 +1,257 @@
+/* Main Page */
+.main a {
+    font-size: 1vw;
+}
+.main {
+    background-color: #675332;
+    transition: .5s;
+    height: 65%;
+    width: 50.35vw;
+    margin-left: 19.65vw;
+    text-align: center;
+    border-bottom-left-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+    overflow: auto;
+}
+
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/943948378172166224/962855428922961960/clay-banks-tRXPl_FCK9c-unsplash_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: 0vw;
+    margin-top: 0vw;
+}
+
+/* Header and Nav Bar */
+.header {
+    background-color: #98632D;
+    height: 8vw;
+    width: 100vw;
+    display: grid;
+    position: sticky;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 60% 40%;
+    grid-template-areas:
+        "Silhos-2 Banner Silhos"
+        "Silhos-2 Navbar Silhos";
+}
+
+.header a:visited {
+    color:#1e1e1e
+}
+.header a:hover {
+    color: #e1e1e1;
+}
+.header a {
+    font-size: 2vw;
+}
+
+.Navbar {
+    text-align: center;
+    grid-area: Navbar;
+    background-color: #422A04;
+    display: grid;
+    grid-template-columns: 12% 12% 12% 22% 12% 12% 12%;
+    grid-template-rows: 100%;
+    column-gap: 1%;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "World Pack Herd Home Colony Pride Contact";
+}
+
+/* Footer */
+.Footer {
+    transition: .5s;
+    background-color: #181A11;
+    bottom: 0;
+    height: 5%;
+    width: 79.6vw;
+    position: fixed;
+}
+.Footer p {
+    text-align: center;
+    font-size: 0.5vw;
+    color: rgb(231, 231, 231);
+}
+
+/* Grid Areas */
+.World a:visited,
+.Pack a:visited,
+.Herd a:visited,
+.Home a:visited,
+.Colony a:visited,
+.Pride a:visited,
+.Contact a:visited,
+.Navbar a:visited {
+    color:#1e1e1e
+}
+.World a:hover,
+.Pack a:hover,
+.Herd a:hover,
+.Home a:hover,
+.Colony a:hover,
+.Pride a:hover,
+.Contact a:hover,
+.Navbar a:hover{
+    color: #e1e1e1;
+}
+
+.World a,
+.Pack a,
+.Herd a,
+.Home a,
+.Colony a,
+.Pride a,
+.Contact a,
+.Navbar a {
+    text-align: center;
+    font-size: 1.5vw;
+    color:#000;
+}
+
+.Banner h1 {
+    text-align: center;
+    margin-top: 0;
+    padding: 1.20%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 2.5vw;
+    color: #000;
+    background-color: #e0d35a;
+    border-radius: 50%;
+}
+
+.Silhos {
+    grid-area: Silhos;
+}
+
+.Silhos-2 {
+    grid-area: Silhos-2;
+}
+
+.Banner {
+    grid-area: Banner;
+    background-image: url("https://cdn.discordapp.com/attachments/943948378172166224/963236783229915238/mila-young-BX0Mm9fazTI-unsplash.jpg");
+    background-size: cover;
+}
+
+.World {
+    grid-area: World;
+    padding-top: .7vw;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.Pack {
+    grid-area: Pack;
+    padding-top: .7vw;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.Herd {
+    grid-area: Herd;
+    padding-top: .7vw;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.Home {
+    grid-area: Home;
+    padding-top: .7vw;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.Colony {
+    grid-area: Colony;
+    padding-top: .7vw;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.Pride {
+    grid-area: Pride;
+    padding-top: .7vw;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.Contact {
+    grid-area: Contact;
+    padding-top: .7vw;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Side Bar */
+
+.sidenav {
+    text-align: center;
+    margin-top: 8vw;
+    height: 90%;
+    width: 20.4vw;
+    position: fixed;
+    z-index: 1;
+    top: 0vw;
+    right: 0vw;
+    background-color: #181A11;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d1d1d1;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #6a6a6a;
+}
+
+/* Buttons */
+.openbtn {
+    margin-top: 8vw;
+    width: 0;
+    position: fixed;
+    height: 4.5vw;
+    top: 0vw;
+    right: 0vw;
+    background-color: #181A11;
+    border: none;
+    overflow-x: hidden;
+    color: #d1d1d1;
+    border-bottom-right-radius: 2.5vw;
+    border-bottom-left-radius: 2.5vw;
+
+}
+
+.openbtn:hover {
+    background-color: #292b23;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Misc Section of Page */
+.misc {
+    text-align: center;
+    background-color: #3D3724;
+    margin-left: 19.65vw;
+    width: 50.35vw;
+    height: 15%;
+    transition: 0.5s;
+    border-radius: 2.5vw;
+}
+
+/* Inputs */
+
+/* Text */
+h2 {
+    color: #d1d1d1 !important;
+}
